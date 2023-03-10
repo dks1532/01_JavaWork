@@ -1,0 +1,7 @@
+​package kr.or.iei.func;
+import kr.or.iei.model.vo.User;
+public class Exam {
+	public void exam1() {
+		User user1 = new User("user01", "pass01", "유저1", 23, "01011112222");
+	}
+}

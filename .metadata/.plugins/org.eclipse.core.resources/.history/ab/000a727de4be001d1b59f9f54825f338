@@ -1,0 +1,20 @@
+package collection.linkedList01;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedList2 {
+
+	public static void main(String[] args) {
+		ArrayList al = new ArrayList(200000);
+		LinkedList ll = new LinkedList();
+	}
+	
+	static long add(List list) {
+		long start = System.currentTimeMillis();
+		for(int i=0; i<1000000; i++)
+			list.add(i+" ");
+	}
+
+}

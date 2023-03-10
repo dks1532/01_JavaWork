@@ -1,0 +1,15 @@
+package exam;
+
+public class Divisor {
+	public void Divisor(int num) {
+		for(int i=1; i<=num; i++) {
+			if(num % i == 0) {
+				if(num == i)
+					System.out.print(i);
+				else
+					System.out.print(i + ", ");
+			}
+		}
+		System.out.println();
+	}
+}

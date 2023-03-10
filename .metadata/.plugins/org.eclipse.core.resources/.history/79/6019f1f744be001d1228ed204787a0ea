@@ -1,0 +1,9 @@
+package divisorMultiple;
+
+import java.util.Scanner;
+
+public class Lcm {
+	Scanner sc = new Scanner(System.in);
+	
+
+}

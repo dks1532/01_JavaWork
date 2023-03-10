@@ -1,0 +1,23 @@
+package practice;
+
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.Scanner;
+
+public class ClientProgram {
+
+	public static void main(String[] args) {
+		try {
+			int port = 3005;
+			Scanner sc = new Scanner(System.in);
+			String ip = InetAddress.getLocalHost().getHostAddress();
+			
+			Socket socket = new Socket(ip, port);
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

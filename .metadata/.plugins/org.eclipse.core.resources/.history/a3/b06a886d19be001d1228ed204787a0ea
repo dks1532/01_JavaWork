@@ -1,0 +1,45 @@
+package practice;
+
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+
+public class ClientProgram {
+
+	public static void main(String[] args) {
+		try {
+			int port = 3005;
+			Scanner sc = new Scanner(System.in);
+			String ip = InetAddress.getLocalHost().getHostAddress();
+
+			try (Socket socket = new Socket(ip, port);) {
+				System.out.println("서버와 연결 성공");
+
+				BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+				PrintWriter pw = new PrintWriter(socket.getOutputStream());
+
+					String msg = null;
+					while ((msg = br.readLine()) != null) {
+						if (msg.equals("exit")) {
+							System.out.println("채팅을 종료합니다");
+							break;
+						}
+						System.out.println("서버 : " + msg);
+
+						System.out.print("클라이언트 : ");
+						String sendMsg = sc.nextLine();
+						pw.println(sendMsg);
+						pw.flush();
+
+						if (sendMsg.equals("exit"))
+							break;
+					}
+					System.out.println("서버와 연결을 해제함");
+			}
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

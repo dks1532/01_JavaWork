@@ -1,0 +1,31 @@
+package collection.hashSet02;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+class Member {
+	private 
+	private int age;
+}
+
+public class HashSet4 {
+
+	public static void main(String[] args) {
+		Set<Member> set = new HashSet<Member>();
+		
+		set.add(new Member("홍길동", 20));
+		set.add(new Member("아무개", 30));
+		
+		System.out.println("size : " + set.size());
+		iteratorPrint(set.iterator());
+		System.out.println();
+	}
+
+	static void iteratorPrint(Iterator<Member> i) {
+		while(i.hasNext()) {
+			System.out.print(i.next() + " ");
+		}
+		System.out.println();
+	}
+}

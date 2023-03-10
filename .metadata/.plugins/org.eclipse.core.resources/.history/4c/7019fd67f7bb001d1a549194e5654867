@@ -1,0 +1,12 @@
+package dicegame;
+
+import java.util.Scanner;
+
+public class Game {
+	public void game() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("주사위를 굴립니다.");
+		String p1 = sc.nextLine();
+	}
+}

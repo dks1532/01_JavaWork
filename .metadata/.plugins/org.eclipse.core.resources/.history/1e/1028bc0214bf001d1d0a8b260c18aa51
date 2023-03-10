@@ -1,0 +1,9 @@
+package exam;
+
+public class GCD {
+	public void gcd(int num1, int num2) {
+		for(int i=1; ;i++) {
+			
+		}
+	}
+}

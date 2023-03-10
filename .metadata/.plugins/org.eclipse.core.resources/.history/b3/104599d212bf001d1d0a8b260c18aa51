@@ -1,0 +1,9 @@
+package exam;
+
+public class LCM {
+	public void lcm(int num1, int num2) {
+		for(int i=num1; ;i+=num1) {
+			
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package practice;
+
+public class ServerProgram {
+
+	public static void main(String[] args) {
+		int port = 3005;
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

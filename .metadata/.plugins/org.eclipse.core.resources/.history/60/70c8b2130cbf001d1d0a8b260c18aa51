@@ -1,0 +1,14 @@
+package collection.hashSet02;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashSet5 {
+
+	public static void main(String[] args) {
+		Set lotto = new HashSet();
+		int num;
+
+	}
+}

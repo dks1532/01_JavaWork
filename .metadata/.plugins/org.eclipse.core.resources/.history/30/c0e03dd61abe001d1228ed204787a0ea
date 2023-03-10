@@ -1,0 +1,9 @@
+package com.kh.ex_tcp.server.ru;
+
+public class ServerRun {
+
+	public static void main(String[] args) {
+
+	}
+
+}

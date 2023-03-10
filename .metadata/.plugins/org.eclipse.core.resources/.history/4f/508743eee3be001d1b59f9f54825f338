@@ -1,0 +1,9 @@
+package collection.linkedList01;
+
+public class LinkedList2 {
+
+	public static void main(String[] args) {
+		ArrayList al = new ArrayList(200000);
+	}
+
+}

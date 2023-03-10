@@ -1,0 +1,8 @@
+package divisorMultiple;
+
+import java.util.Scanner;
+
+public class GCD {
+	Scanner sc = new Scanner(System.in);
+	
+}

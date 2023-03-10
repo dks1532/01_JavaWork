@@ -1,0 +1,18 @@
+package exam;
+
+import java.util.Scanner;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Divisor d = new Divisor();
+		LCM lcm = new LCM();
+		GCD gcd = new GCD();
+		
+		lcm.lcm(10, 15);
+		gcd.gcd(800, 57);
+		
+	}
+
+}

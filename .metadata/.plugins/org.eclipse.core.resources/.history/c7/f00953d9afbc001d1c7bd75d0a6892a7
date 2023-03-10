@@ -1,0 +1,12 @@
+package object05;
+
+public class ObjectDao {
+	// 프로그램 --> 파일(출력)
+	public void fileSave() {
+		Phone ph1 = new Phone("아이폰", 1800000);
+		
+		// FileOutputStream : 1byte 기반 스트림
+		// ObjectOutputStream : 객체 단위로 출력할 수 있도록 도움을 주는 보조 스트림
+		//						(ObjectWriter없음)
+	}
+}

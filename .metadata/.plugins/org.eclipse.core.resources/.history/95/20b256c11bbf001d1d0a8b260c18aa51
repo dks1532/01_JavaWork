@@ -1,0 +1,9 @@
+package collection.treeSet03;
+
+public class TreeSet3 {
+
+	public static void main(String[] args) {
+		Object[] arr = {1,4,6,7,3,2,8,9,3,4,5,6,7};  // 13개
+	}
+
+}

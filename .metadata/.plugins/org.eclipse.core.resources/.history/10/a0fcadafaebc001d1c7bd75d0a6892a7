@@ -1,0 +1,6 @@
+package object05;
+
+public class Phone {
+	private String name;
+	
+}

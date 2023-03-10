@@ -1,0 +1,14 @@
+package dicegame;
+
+import java.util.Scanner;
+
+public class GameTest {
+
+	public static void main(String[] args) {
+		Dice d = new Dice();
+		d.roll();
+		
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

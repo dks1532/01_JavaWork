@@ -1,0 +1,14 @@
+package object05;
+
+public class Phone {
+	private String name;
+	private int price;
+	
+	public Phone() { }
+	public Phone(String name, int price) {
+		super();
+		this.name = name;
+		this.price = price;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package object05;
+
+public class ObjectDao {
+	// 프로그램 --> 파일(출력)
+	public void fileSave() {
+		Phone ph1 = new Phone();
+	}
+}

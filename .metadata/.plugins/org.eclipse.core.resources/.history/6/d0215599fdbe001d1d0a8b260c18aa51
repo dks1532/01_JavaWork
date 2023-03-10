@@ -1,0 +1,12 @@
+package collection.hashSet02;
+class Person {
+	String name;
+	int age;
+}
+public class HashSet3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

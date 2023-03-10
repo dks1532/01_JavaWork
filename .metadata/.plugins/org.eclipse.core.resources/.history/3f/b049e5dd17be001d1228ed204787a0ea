@@ -1,0 +1,20 @@
+package practice;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.util.Scanner;
+
+public class ServerProgram {
+
+	public static void main(String[] args) {
+		int port = 3005;
+		Scanner sc = new Scanner(System.in);
+		try(ServerSocket server = new ServerSocket(port)) {
+			System.out.println("서버의 요청을 기다리고 있음");
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

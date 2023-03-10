@@ -1,0 +1,13 @@
+package byteStream02;
+
+public class ByteStreamTest {
+	/*
+	 * 스트림(통로)의 특징
+	 *	- 단방향 : 입력 / 출력이 따로 존재 
+	 */
+	public static void main(String[] args) {
+		ByteStreamAPI bs = new ByteStreamAPI();
+		bs.fileSave();
+	}
+
+}

@@ -1,0 +1,23 @@
+package collection.hashSet02;
+
+import java.util.Iterator;
+
+class Member {
+	
+}
+
+public class HashSet4 {
+
+	public static void main(String[] args) {
+		Set<Member>
+		
+		set.add(new Member)
+	}
+
+	static void iteratorPrint(Iterator<String> i) {
+		while(i.hasNext()) {
+			System.out.print(i.next() + " ");
+		}
+		System.out.println();
+	}
+}

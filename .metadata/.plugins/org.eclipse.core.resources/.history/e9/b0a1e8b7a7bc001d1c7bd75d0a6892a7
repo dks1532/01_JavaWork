@@ -1,0 +1,12 @@
+package buffer04;
+
+public class BufferTest {
+	/*
+	 * 보조 스트림 : 기반스트림만으로는 부족한 성능을 보다 향상 시켜주는 스트림
+	 * 
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

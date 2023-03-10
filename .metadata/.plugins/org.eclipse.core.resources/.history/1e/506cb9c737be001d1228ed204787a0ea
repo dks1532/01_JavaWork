@@ -1,0 +1,10 @@
+package divisorMultiple;
+
+public class Divisor {
+	public int i;
+
+	public Divisor(int i) {
+		this.i = i;
+	}
+	
+}

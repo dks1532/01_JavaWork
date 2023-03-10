@@ -1,0 +1,13 @@
+package collection05.vector01;
+
+import java.util.Vector;
+
+public class Vector2 {
+
+	public static void main(String[] args) {
+		// 매개변수로 어떠한 객체도 다받겠다. 권장하지 않음
+		Vector v = new Vector();
+		
+	}
+
+}

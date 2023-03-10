@@ -1,0 +1,10 @@
+package dicegame;
+
+import java.util.Scanner;
+
+public class Game {
+	public void game() {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

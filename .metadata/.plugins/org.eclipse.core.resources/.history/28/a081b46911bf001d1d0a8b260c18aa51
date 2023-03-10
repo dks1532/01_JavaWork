@@ -1,0 +1,7 @@
+package exam;
+
+public class Divisor {
+	public void Divisor(int num) {
+		
+	}
+}

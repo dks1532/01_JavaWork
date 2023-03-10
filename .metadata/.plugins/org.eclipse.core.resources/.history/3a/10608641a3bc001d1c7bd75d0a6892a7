@@ -1,0 +1,17 @@
+package char03;
+
+public class CharTest {
+
+	public static void main(String[] args) {
+		/*
+		 * 문자기반 스트림
+		 * - 문자 스트림 : 2byte단위로 전송하는 통로
+		 * - 기반 스트림 : 외부매체와 직접 연결하는 통로
+		 * 
+		 * xxxReader : 입력용 스트림
+		 * xxxWriter : 출력용 스트림
+		 * 
+		 */
+	}
+
+}

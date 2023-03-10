@@ -1,0 +1,9 @@
+package divisorMultiple;
+
+public class Divisor {
+
+	public Divisor(int x) {
+		for(int )
+	}
+	
+}

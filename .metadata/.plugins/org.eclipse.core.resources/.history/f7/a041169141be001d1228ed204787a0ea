@@ -1,0 +1,11 @@
+package divisorMultiple;
+
+import java.util.Scanner;
+
+public class GCD {
+	Scanner sc = new Scanner(System.in);
+	
+	public void GCD() {
+		System.out.println("첫번째 숫자 입력: ");
+	}
+}

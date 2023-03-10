@@ -1,0 +1,26 @@
+package collection.hashSet02;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSet5 {
+
+	public static void main(String[] args) {
+		Set set = new HashSet();
+		int[] lotto = new int[45];
+		for(int i=0; i<lotto.length; i++) {
+			lotto[i] = i+1;
+		}
+		System.out.println(lotto[44]);
+		
+//		while(set.size() < 6) {
+//			int number = (int)(Math.random()*45);
+//			int temp = lotto[i];
+//			lotto[i] = lotto[index];
+//			lotto[index] = temp;
+//			
+//			while(size != 6)
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package divisorMultiple;
+
+public class Divisor {
+	public int x;
+
+	Divisor() {
+		System.out.println("약수를 구할 숫자를 입력 : ");
+		for (int i = 1; i <= x; i++) {
+			if (x % i == 0) {
+				
+			}
+		}
+	}
+
+}

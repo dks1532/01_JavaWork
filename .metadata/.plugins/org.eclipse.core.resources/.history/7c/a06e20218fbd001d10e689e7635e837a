@@ -1,0 +1,14 @@
+package practice;
+
+import java.net.InetAddress;
+import java.util.Scanner;
+
+public class ClientProgram {
+
+	public static void main(String[] args) {
+		int port = 3005;
+		String ip = InetAddress.getLocalHost().getHostAddress();
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

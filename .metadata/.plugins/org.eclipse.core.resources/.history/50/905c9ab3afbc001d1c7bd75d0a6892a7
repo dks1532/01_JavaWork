@@ -1,0 +1,11 @@
+package object05;
+
+public class ObjectDao {
+	// 프로그램 --> 파일(출력)
+	public void fileSave() {
+		Phone ph1 = new Phone("아이폰", 1800000);
+		
+		// FileOutputStream : 1byte 기반 스트림
+		// ObjectOutputStream
+	}
+}
