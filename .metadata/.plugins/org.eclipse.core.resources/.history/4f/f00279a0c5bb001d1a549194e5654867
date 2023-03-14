@@ -1,7 +1,0 @@
-​package kr.or.iei.func;
-import kr.or.iei.model.vo.User;
-public class Exam {
-	public void exam1() {
-		
-	}
-}

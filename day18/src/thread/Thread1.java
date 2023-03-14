@@ -86,7 +86,7 @@ public class Thread1 {
 	
 	class MyThread1 extends Thread {
 		@Override
-		public void run() {
+		public void run() {	// 쓰레드가 할일
 			a("#");
 		}
 	}

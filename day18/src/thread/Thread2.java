@@ -18,7 +18,7 @@ public class Thread2 {
 	class SleepThread implements Runnable {
 		@Override
 		public void run() {
-			for (int i = 1; i <= 200; i++) {
+			for (int i = 1; i <= 10; i++) {
 				try {
 					Thread.sleep(1000);
 				} catch (InterruptedException e) {

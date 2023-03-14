@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="langPackage03.Card"/></lhs><lhs name\="langPackage03.Card"><rhs name\="langPackage03.Card"/></lhs><lhs name\="java.time.temporal.TemporalUnit"><rhs name\="java.time.temporal.ChronoUnit"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="langPackage03.Card"/></lhs><lhs name\="langPackage03.Card"><rhs name\="langPackage03.Card"/></lhs><lhs name\="java.time.temporal.TemporalUnit"><rhs name\="java.time.temporal.ChronoUnit"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="thread.ThreadEx3$MultiplyThread"/><rhs name\="java.lang.Thread"/><rhs name\="thread.Synchronized4$Delivery"/></lhs><lhs name\="java.lang.Thread"><rhs name\="java.lang.Thread"/></lhs></history>
 content_assist_number_of_computers=17
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
